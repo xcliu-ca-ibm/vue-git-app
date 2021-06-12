@@ -3,5 +3,6 @@ export default interface Repo {
 	id: number,
 	name: string,
 	full_name: string,
-	owner: GitUser
+	owner: GitUser,
+	[option: string]: any
 }
